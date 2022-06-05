@@ -1,0 +1,11 @@
+﻿int shortEdge,longEdge,h, area, perimeter;
+Console.Write("Short edge: ");
+shortEdge = Convert.ToInt32(Console.ReadLine());
+Console.Write("Long edge: ");
+longEdge = Convert.ToInt32(Console.ReadLine());
+h = (Int32)Math.Sqrt((shortEdge * shortEdge) + (longEdge * longEdge));
+area = (shortEdge * longEdge) / 2;
+perimeter = shortEdge + longEdge + h;
+Console.WriteLine("Triangle Area" + area);
+Console.WriteLine("Triangle Perimeter" + perimeter);
+Console.ReadLine();
